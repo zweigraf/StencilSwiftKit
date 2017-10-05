@@ -7,7 +7,7 @@
 import Foundation
 import Stencil
 
-extension Filters.Strings {  
+extension Filters.Strings {
   /// Checks if the given string contains given substring
   ///
   /// - Parameters:
