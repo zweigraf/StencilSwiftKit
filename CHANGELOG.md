@@ -6,7 +6,7 @@
 
 ### Bug Fixes
 
-* Workaround for `parseString` to support `NSString`.
+* Workaround for `parseString` to support `NSString`.  
   [Antondomashnev](https://github.com/antondomashnev)
   [#68](https://github.com/SwiftGen/StencilSwiftKit/pull/68)
 
@@ -16,7 +16,9 @@ _None_
 
 ### New Features
 
-_None_
+* Add `!` counterpart for strings boolean filters.  
+  [Antondomashnev](https://github.com/antondomashnev)
+  [#68](https://github.com/SwiftGen/StencilSwiftKit/pull/68)
 
 ### Internal Changes
 
