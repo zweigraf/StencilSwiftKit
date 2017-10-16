@@ -3,11 +3,11 @@ import PackageDescription
 
 let package = Package(
     name: "StencilSwiftKit",
-    targets: [
-        .target(name: "StencilSwiftKit", dependencies: ["Stencil"])
-    ],
     dependencies: [
         .package(url: "https://github.com/zweigraf/Stencil.git", .branch("master")),
+    ],
+    targets: [
+        .target(name: "StencilSwiftKit", dependencies: ["Stencil"])
     ],
     swiftLanguageVersions: [4]
 )
